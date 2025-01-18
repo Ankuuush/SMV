@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-homeImg {
+            background-image: url('./images/homeBg.png');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-screen overflow-x-hidden">
+        <div class="2xl:h-16 h-14 w-screen bg-black text-white flex justify-center items-center">
+            <div class="w-3/4 xl:w-2/3 flex items-center justify-between">
+                <p class="text-2xl 2xl:text-3xl">intract.</p>
+                <div class="flex w-2/5 justify-around text-sm 2xl:text-base">
+                    <p>Compass</p>
+                    <p>Explore</p>
+                    <p class="flex gap-x-2 items-center">Academy
+                    <p class="bg-[#6435E9] px-1 2xl:px-2 flex items-center h-5 rounded-lg text-xs">New</p>
+                    </p>
+                    <p>NFTs</p>
+                    <p>For Projects</p>
+                </div>
+                <div class="w-1/2 flex justify-between items-center gap-x-3">
+                    <form class="w-[70%] 2xl:h-full h-[20%] mx-auto">
+                        <label htmlFor="default-search"
+                            class="mb-2 text-xs xl:text-sm font-medium text-gray-900 sr-only dark:text-white">
+                            Search
+                        </label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 start-0 flex items-center ps-5 pointer-events-none">
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                                </svg>
+                            </div>
+                            <input type="search" id="default-search"
+                                class="block w-full h-11 rounded-full p-4 ps-12 text-xs xl:text-sm text-gray-900 border border-gray-300  bg-[#181818]  dark:bg-[#181818] dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-none"
+                                placeholder="Search for ecosystem, trending quests etc,." required />
+                        </div>
+                    </form>
+                    <img src="./images/tvIcon.svg" />
+                    <button class="bg-white text-black w-16 xl:w-24 h-8 text-center rounded-md text-sm xl:text-base">
+                        Sign In
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full relative overflow-x-hidden">
+            <div
+                class="fixed text-white bottom-8 left-[50%] flex translate-x-[-50%] w-[18%] z-10 2xl:h-10 h-8 bg-[#141414] rounded-full">
+                <div
+                    class="w-1/2 2xl:text-base text-sm bg-[#393939] h-full rounded-full flex justify-center items-center">
+                    Essentials</div>
+                <div class="w-1/2 2xl:text-base text-sm text-[#727272] flex justify-center items-center h-full">Alpha
+                    Hub</div>
+            </div>
+            <div class="bg-homeImg flex justify-center h-[93vh] w-full bg-cover text-white">
+                <div class="flex w-fit h-fit flex-col mt-56 justify-center items-center">
+                    <img src="./images//home.gif" class="w-60 h-24 bg-transparent" />
+                    <p class="mt-10 text-xl">Intract users <span class="text-[#70707A]">have together made more than
+                        </span>$100 million <span class="text-[#70707A]">in web3.</span></p>
+                    <p class="text-xl"><span class="text-[#70707A]">Join them and</span> learn how to earn crypto!</p>
+                    <button class="flex items-center gap-x-2 px-12 py-2 rounded-xl bg-[#6435E9] text-sm mt-10">Get
+                        Started <img src="images/rightArrow.svg" /></button>
+                </div>
+            </div>
+            <div class="bg-[#080808] text-white">
+                <div class="w-full h-fit flex flex-col pb-[25rem] border-b-[#131313] border-b-2">
+                    <!-- Section 1 -->
+                    <div class="relative w-full h-fit flex flex-col pl-40 pr-20">
+                        <div class="h-fit flex w-[35%] absolute 2xl:-top-32">
+                            <img src="/images/path1.svg" class="w-1/4 h-fit mt-20" />
+                            <div class="w-fit h-fit">
+                                <div class="w-full h-20 xl:h-36 2xl:h-60 bg-[#131313] flex items-center p-3 2xl:p-6 hover:bg-[#333232] rounded-3xl"
+                                    data-expand-toggle>
+                                    <img src="/images/RoadmapImg1.png" class="h-full w-[35%]">
+                                    <div class="w-3/5 h-full flex flex-col justify-between py-1 xl:py-2 2xl:py-4 pl-4">
+                                        <p class="text-sm xl:text-base 2xl:text-2xl">Basics of Crypto</p>
+                                        <p class="text-xs font-semibold text-[#848384]">The safest and easiest place to
+                                            start your crypto journey!</p>
+                                        <hr class="border-[#848384]">
+                                        <div class="flex text-xs 2xl:text-sm">
+                                            <img src="/images/coin.svg" />
+                                            <p>1490 XPs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="w-full h-52 xl:h-64 2xl:h-80 overflow-y-hidden gap-2 bg-[#101010] flex items-center p-6 rounded-3xl flex-col overflow-y-scroll">
+                                    <!-- Task Cards -->
+                                    <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2 ">
+                                        <img src="/images/Card1.png" class="w-1/4 h-full" />
+                                        <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                            <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#1: But what is
+                                                crypto and...</p>
+                                            <hr class="border-[#2E2E2E]">
+                                            <div class="flex items-center w-full">
+                                                <p
+                                                    class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                    11 Tasks</p>
+                                                <div
+                                                    class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-[10%] h-full flex items-end">
+                                            <div
+                                                class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                        <img src="/images/Card6.png" class="w-1/4 h-full" />
+                                        <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                            <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#2: Setting up
+                                                your own web3..</p>
+                                            <hr class="border-[#2E2E2E]">
+                                            <div class="flex items-center w-full">
+                                                <p
+                                                    class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                    11 Tasks</p>
+                                                <div
+                                                    class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-[10%] h-full flex items-end">
+                                            <div
+                                                class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                        <img src="/images/Card3.png" class="w-1/4 h-full" />
+                                        <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                            <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#3: What the
+                                                heck is a...</p>
+                                            <hr class="border-[#2E2E2E]">
+                                            <div class="flex items-center w-full">
+                                                <p
+                                                    class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                    8 Tasks</p>
+                                                <div
+                                                    class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-[10%] h-full flex items-end">
+                                            <div
+                                                class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                        <img src="/images/Card1.png" class="w-1/4 h-full" />
+                                        <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                            <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#4: Swapping and
+                                                bridging....</p>
+                                            <hr class="border-[#2E2E2E]">
+                                            <div class="flex items-center w-full">
+                                                <p
+                                                    class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                    11 Tasks</p>
+                                                <div
+                                                    class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-[10%] h-full flex items-end">
+                                            <div
+                                                class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                        <img src="/images/Card1.png" class="w-1/4 h-full" />
+                                        <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                            <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#1: But what is
+                                                crypto and...</p>
+                                            <hr class="border-[#2E2E2E]">
+                                            <div class="flex items-center w-full">
+                                                <p
+                                                    class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                    11 Tasks</p>
+                                                <div
+                                                    class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-[10%] h-full flex items-end">
+                                            <div
+                                                class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex mt-10 h-fit">
+                            <div class="ml-[20%]"><img src="/images/path2.svg" />
+
+                            </div>
+                            <div class="w-[10%] mt-14 2xl:mt-0 flex flex-col">
+
+                                <div class="w-full flex justify-center">
+                                    <div
+                                        class="w-6 h-6 2xl:w-10 2xl:h-10 p-1 2xl:p-2 mb-4 bg-[#131313] rounded-full border-[#434343] border-[1px]">
+                                        <img src="/images/tick.svg" class="w-full h-full" />
+                                    </div>
+                                </div>
+                                <div class="relative p-1 border-[#434343] border-[1px] rounded-3xl">
+                                    <img src="/images/catImg.png" />
+                                    <div
+                                        class="w-6 h-6 2xl:w-10 2xl:h-10 absolute -bottom-2 -right-2 2xl:-bottom-3 2xl:-right-3 p-1 2xl:p-3 bg-[#131313] rounded-full border-[#434343] border-[1px]">
+                                        <img src="/images/lockIcon.svg" />
+                                    </div>
+                                </div>
+                                <p class="text-sm 2xl:text-base whitespace-nowrap mt-4">Intract Certified: Learner NFT
+                                </p>
+                                <p class="text-xs 2xl:text-sm text-[#434343] font-semibold">Your crypto black-belt
+                                    certificate.</p>
+                                <p
+                                    class="w-full text-center text-xs 2xl:text-lg py-1 2xl:py-2 bg-[#434343] mt-2 rounded-lg">
+                                    Claim</p>
+
+                            </div>
+                            <div class=" flex items-end">
+                                <img src="/images/path3.svg" />
+                            </div>
+                        </div>
+
+                        <!-- Section 2 -->
+                        <div class="relative w-full h-fit flex flex-col  pl-20">
+                            <div class="w-full flex justify-end">
+                                <img src="/images/path4.svg" class="w-[45%]" />
+                            </div>
+                            <div class="flex flex-row-reverse w-full h-fit">
+                                <div class="w-1/2 2xl:w-[35%] mr-[20%] 2xl:mr-[30%]">
+                                    <div class="w-fit h-fit">
+                                        <div class="w-full h-20 xl:h-36 2xl:h-60 bg-[#131313] flex items-center p-3 2xl:p-6 hover:bg-[#333232] rounded-3xl"
+                                            data-expand-toggle>
+                                            <img src="/images/RoadmapImg2.png" class="h-full w-[35%]">
+                                            <div
+                                                class="w-3/5 h-full flex flex-col justify-between py-1 xl:py-2 2xl:py-4 pl-4">
+                                                <p class="text-sm xl:text-base 2xl:text-2xl">Introduction to Airdrops
+                                                </p>
+                                                <p class="text-xs font-semibold text-[#848384]">Your best bet to make it
+                                                    big in crypto!</p>
+                                                <hr class="border-[#848384]">
+                                                <div class="flex text-xs 2xl:text-sm">
+                                                    <img src="/images/coin.svg">
+                                                    <p>1040 XPs</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="w-full h-52 xl:h-64 2xl:h-80 overflow-y-scroll  gap-2 bg-[#101010] flex items-center p-6 rounded-3xl flex-col">
+                                            <!-- Task Cards -->
+                                            <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                                <img src="/images/Card2.png" class="w-1/4 h-full">
+                                                <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                                    <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#1: What
+                                                        are airdrops, and ho...</p>
+                                                    <hr class="border-[#2E2E2E]">
+                                                    <div class="flex items-center w-full">
+                                                        <p
+                                                            class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                            7 Tasks</p>
+                                                        <div
+                                                            class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-[10%] h-full flex items-end">
+                                                    <div
+                                                        class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                        <img src="/images/tick.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                                <img src="/images/Card4.png" class="w-1/4 h-full">
+                                                <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                                    <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#3:
+                                                        Types of airdrops</p>
+                                                    <hr class="border-[#2E2E2E]">
+                                                    <div class="flex items-center w-full">
+                                                        <p
+                                                            class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                            10 Tasks</p>
+                                                        <div
+                                                            class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-[10%] h-full flex items-end">
+                                                    <div
+                                                        class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                        <img src="/images/tick.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                                <img src="/images/Card5.png" class="w-1/4 h-full">
+                                                <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                                    <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#3: How
+                                                        to earn huge $$$ fro...</p>
+                                                    <hr class="border-[#2E2E2E]">
+                                                    <div class="flex items-center w-full">
+                                                        <p
+                                                            class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                            10 Tasks</p>
+                                                        <div
+                                                            class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-[10%] h-full flex items-end">
+                                                    <div
+                                                        class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                        <img src="/images/tick.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex w-full h-12 xl:h-16 2xl:h-24 bg-[#1C1C1C] rounded-xl p-2">
+                                                <img src="/images/Card1.png" class="w-1/4 h-full">
+                                                <div class="pl-4 w-full pr-4 flex flex-col justify-between">
+                                                    <p class="text-xs 2xl:text-lg font-semibold text-[#D3D3D3]">#3:
+                                                        Things to keep in mind!...</p>
+                                                    <hr class="border-[#2E2E2E]">
+                                                    <div class="flex items-center w-full">
+                                                        <p
+                                                            class="flex text-xs 2xl:text-base whitespace-nowrap pr-1 xl:pr-2 text-[#A6A6A6]">
+                                                            10 Tasks</p>
+                                                        <div
+                                                            class="bg-[#2E2E2E] rounded-full border-2 border-[#2F2F2F] w-full h-2 2xl:h-4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-[10%] h-full flex items-end">
+                                                    <div
+                                                        class="p-1 bg-[#545252] h-4 w-4 2xl:h-6 2xl:w-6 rounded-full border-[#434343] border-[1px]">
+                                                        <img src="/images/tick.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Add more Task Cards here as needed -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><img src="/images/path5.svg" /></div>
+                                <div class="w-28 2xl:w-40 mt-[15rem] flex flex-col items-center">
+                                    <img src="/images/catImg.png" alt="Learner NFT" />
+                                    <h3 class="text-sm">Intract Certified: Learner NFT</h3>
+                                    <p class="text-xs">Your crypto black-belt certificate</p>
+                                </div>
+                                <div class="flex justify-end items-end"><img src="/images/path6.svg" /></div>
+                            </div>
+                        </div>
+
+                        <!-- Section 3 -->
+                        <div class="relative w-full h-fit flex flex-col pr-20 pl-20">
+                            <div class="relative w-1/2">
+                                <img src="/images/path7.svg" />
+                                <div class="absolute flex flex-col items-center right-[30%] top-1">
+                                    <img src="/images/path7Icon.svg" />
+                                    <p class="text-xl mt-4">10,000 <span class="text-[#4C9641]">$PEPE</span></p>
+                                    <p class="text-sm text-[#434343]">Memecoin Airdrop</p>
+                                </div>
+                            </div>
+                            <div class="relative flex flex-row-reverse ">
+                                <div class="relative">
+                                    <div
+                                        class="2xl:h-80 2xl:w-80 w-60 h-60 bg-[#131313] p-2 2xl:p-3 rounded-lg text-[#737373]">
+                                        <div class="flex h-[10%] gap-x-2 items-center pb-1 2xl:pb-2">
+                                            <p class="text-xs 2xl:text-sm">Reward info</p>
+                                            <img src="/images/info.svg" class="2xl:h-4 h-3" />
+                                        </div>
+                                        <hr class="border-[#2E2E2E]" />
+                                        <p class="2xl:py-3 py-1 text-xs 2xl:text-sm font-semibold text-white">
+                                            Free access to paid KOL (crypto earning) communities!
+                                        </p>
+                                        <p class="py-1 text-xs 2xl:text-sm font-semibold">
+                                            Win access to exclusive earning communities of some of the greatest earners
+                                            in crypto for a month, every 24 hours. Get access to unmatched insights, a
+                                            close-knit community of the best airdrop earners, and more.
+                                        </p>
+                                        <p class="2xl:py-1 text-xs 2xl:text-sm font-semibold">
+                                            To win: make sure you've connected your Twitter and Discord accounts - and
+                                            follow our criteria!
+                                        </p>
+                                    </div>
+                                    <img src="/images/path8.svg" class="absolute -left-20" />
+                                </div>
+
+                                <div
+                                    class="w-1/4 absolute right-[20rem] 2xl:right-[25rem] h-fit flex flex-col gap-y-10 -top-10">
+                                    <div
+                                        class="flex flex-col justify-between w-full h-32 2xl:h-40 bg-[#1C1C1C] rounded-xl p-3">
+                                        <div class="flex gap-x-2">
+                                            <img src="/images/Timer.svg" />
+                                            <p class="t2xl:text-base text-sm">Reward unlocks in</p>
+                                        </div>
+                                        <hr class="border-[#2E2E2E]" />
+                                        <img src="/images/Dateimg.png" />
+                                    </div>
+                                    <div
+                                        class="flex 2xl:text-base text-sm flex-col w-full h-fit bg-[#1C1C1C] rounded-xl p-3 text-[#737373]">
+                                        <img src="/images/RoadmapGif.gif" class="w-full" />
+                                        <div class="flex justify-between py-2">
+                                            <p>Exclusive Community</p>
+                                            <div class="flex items-center gap-x-1">
+                                                <img src="/images/discordIcon.svg"
+                                                    class="p-[0.15rem] rounded-full w-4 h-4 bg-[#5865F2]" />
+                                                <p class="text-white">Earndrop</p>
+                                            </div>
+                                        </div>
+                                        <hr class="border-[#2E2E2E]" />
+                                        <div class="flex justify-between py-2">
+                                            <p class="2xl:text-sm text-xs">Complete all Essential quests</p>
+                                            <div
+                                                class="p-[0.1rem] bg-[#545252] h-4 w-4 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg" />
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-between pb-2">
+                                            <p class="2xl:text-sm text-xs">Complete at least 1 Alpha Hub quest today</p>
+                                            <div
+                                                class="p-[0.1rem] bg-[#545252] h-4 w-4 rounded-full border-[#434343] border-[1px]">
+                                                <img src="/images/tick.svg" />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="flex 2xl:h-10 h-8 2xl:text-base text-sm bg-[#252525] rounded-lg justify-center items-center gap-x-2 text-white">
+                                            <p>Claim now</p>
+                                            <img src="/images/rightArrow.svg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full bg-[#080808] flex flex-col justify-center items-center py-14">
+                    <div class="text-white mb-8 w-fit">
+                      <p class="2xl:text-2xl text-lg">Top Crypto Creators and Projects to Follow</p>
+                      <p class="text-center 2xl:text-sm text-xs font-semibold pt-2 text-[#6C6C6C]">
+                        Answers to your crypto doubts, straight from the experts
+                      </p>
+                    </div>
+                    <div class="flex w-[70%] gap-4">
+                      <div class="relative rounded-2xl">
+                        <img
+                          src="https://static.highongrowth.xyz/enterprise/undefined/c7caa8a1de0d45f4acd7c51d145df808.png"
+                          class="w-full h-full object-cover rounded-2xl"
+                          alt="Item"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl"></div>
+                        <img
+                          src="/images/videoIcon.svg"
+                          class="absolute top-3 right-3"
+                          alt="Video Icon"
+                        />
+                        <p class="absolute bottom-3 left-3 text-white 2xl:text-2xl text-lg">
+                          How to plan your retirement with crypto?
+                        </p>
+                      </div>
+                      <div class="relative rounded-2xl">
+                        <img
+                          src="https://static.highongrowth.xyz/enterprise/undefined/58615645160e4aab89da48d9f62cedf8.png"
+                          class="w-full h-full object-cover rounded-2xl"
+                          alt="Item"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl"></div>
+                        <img
+                          src="/images/videoIcon.svg"
+                          class="absolute top-3 right-3"
+                          alt="Video Icon"
+                        />
+                        <p class="absolute bottom-3 left-3 text-white 2xl:text-2xl text-lg">
+                          Why are there limited Bitcoin?
+                        </p>
+                      </div>
+                      <div class="relative rounded-2xl">
+                        <img
+                          src="https://static.highongrowth.xyz/enterprise/undefined/493018d95dd24096a4badafe9390eea7.png"
+                          class="w-full h-full object-cover rounded-2xl"
+                          alt="Item"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl"></div>
+                        <img
+                          src="/images/videoIcon.svg"
+                          class="absolute top-3 right-3"
+                          alt="Video Icon"
+                        />
+                        <p class="absolute bottom-3 left-3 text-white 2xl:text-2xl text-lg">
+                          How does Uniswap actually work?
+                        </p>
+                      </div>
+                      <div class="relative rounded-2xl">
+                        <img
+                          src="https://static.highongrowth.xyz/enterprise/undefined/a9e03cd73a494e09864475c36318c03b.png"
+                          class="w-full h-full object-cover rounded-2xl"
+                          alt="Item"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl"></div>
+                        <img
+                          src="/images/videoIcon.svg"
+                          class="absolute top-3 right-3"
+                          alt="Video Icon"
+                        />
+                        <p class="absolute bottom-3 left-3 text-white 2xl:text-2xl text-lg">
+                          How to spot crypto projects to invest in?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full bg-[#080808] flex flex-col justify-center items-center pt-14 pb-40">
+                    <div class="text-white mb-8 w-fit">
+                      <p class="2xl:text-2xl text-lg text-center">Crypto Dictionary</p>
+                      <p class="text-center text-xs 2xl:text-sm font-semibold pt-2 text-[#6C6C6C]">
+                        Your one-stop to catch up on all crypto terms
+                      </p>
+                    </div>
+                    <div class="relative rounded-2xl w-[70%]">
+                      <img
+                        src="/images/web3Img.png"
+                        class="w-full h-full object-cover rounded-2xl"
+                        alt="Web3 and Degen Glossary"
+                      />
+                      <div class="absolute bottom-5 left-5">
+                        <p class="text-lg 2xl:text-2xl text-[#AEB7B6] font-semibold">
+                          Web3 + Degen Glossary
+                        </p>
+                        <p class="text-[#898F8A] text-sm 2xl:text-base">Your own crypto dictionary</p>
+                      </div>
+                      <img 
+                        src="/images/dictionaryImg.png" 
+                        class="absolute w-10 h-10 2xl:w-14 2xl:h-14 bottom-5 right-5" 
+                        alt="Dictionary Icon" 
+                      />
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="w-screen h-fit bg-black flex justify-center items-center">
+            <div class=" w-[70%] flex flex-col pt-12">
+              <div class="w-full text-[#7D7D7D] h-fit grid grid-cols-[30%,15%,15%,20%,20%] border-b-[1px] border-b-[#2B2B2B] pb-10">
+                <div class="gap-y-2 flex flex-col">
+                  <p class="text-white text-lg 2xl:text-2xl">intract.</p>
+                  <p class="text-sm 2xl:text-base">
+                    We are your personal guide for exploring web3 projects & earning
+                    100x rewards
+                  </p>
+                </div>
+                <div class="gap-y-1 flex flex-col">
+                  <p class="text-white text-sm 2xl:text-base">INTRACT</p>
+                  <p class="text-sm 2xl:text-base">Explore Quests</p>
+                  <p class="text-sm 2xl:text-base">Comunities</p>
+                  <p class="text-sm 2xl:text-base">Alpha Hub</p>
+                </div>
+                <div class="gap-y-1 flex flex-col">
+                  <p class="text-white text-sm 2xl:text-base">EARN</p>
+                  <p class="text-sm 2xl:text-base">Refer & Earn</p>
+                  <p class="text-sm 2xl:text-base">Leaderboard</p>
+                  <p class="text-sm 2xl:text-base">Achievements</p>
+                </div>
+                <div class="gap-y-1 flex flex-col">
+                  <p class="text-white text-sm 2xl:text-base">About</p>
+                  <p class="text-sm 2xl:text-base">Product Roadmap</p>
+                  <p class="text-sm 2xl:text-base">Affiliate Program</p>
+                  <p class="text-sm 2xl:text-base">Sign up Program</p>
+                  <p class="text-sm 2xl:text-base">Growth Community</p>
+                  <p class="text-sm 2xl:text-base">Blogs</p>
+                </div>
+                <div class="gap-y-1 flex flex-col">
+                  <p class="text-white text-sm 2xl:text-base">Support</p>
+                  <p class="text-sm 2xl:text-base">Help Center</p>
+                  <p class="text-sm 2xl:text-base">Create your quest</p>
+                  <p class="text-sm 2xl:text-base">Terms of Service</p>
+                  <p class="text-sm 2xl:text-base">Privacy Policy</p>
+                  <p class="text-sm 2xl:text-base">Community Guidelines</p>
+                </div>
+              </div>
+              <p class="h-fit 2xl:text-base text-sm py-8 2xl:py-10 text-[#7D7D7D] border-b-[1px] border-b-[#2B2B2B]">
+                <span class="text-[#BFBFBF]">Disclaimer: </span>Crypto Products,
+                Virtual Digital Assets, and NFTs are unregulated and can be highly
+                risky. There may be no regulatory recourse for any loss from such
+                transactions. We advise the viewer to proceed with caution. Nothing in
+                this website or any communication published by us amounts to, is
+                intended to be, or should be construed as investment or purchase
+                advice of any kind or financial advice or promotion under any
+                applicable laws. Any decision made based on the content provided on
+                this website or any communication published by us shall not be
+                attributable to us.
+              </p>
+              <div class="2xl:h-20 h-16 flex 2xl:pt-16 pt-12 2xl:pb-12 pb-8 items-center pr-4 justify-between">
+                <p class="text-white 2xl:text-sm text-xs">
+                  CREATED BY <span class=" underline">INTRACT</span>
+                </p>
+                <div class="flex gap-3">
+                  <img
+                    src="images/twitterIcon.svg"
+                    class=" p-2 2xl:h-10 h-8 bg-[#1A1A1A] rounded-lg"
+                  />
+                  <img
+                    src="images/discordIcon.svg"
+                    class="p-2 2xl:h-10 h-8 bg-[#1A1A1A] rounded-lg"
+                  />
+                  <img
+                    src="images//telegramIcon.svg"
+                    class="p-2 2xl:h-10 h-8 bg-[#1A1A1A] rounded-lg"
+                  />
+                  <img
+                    src="images/spotifyIcon.svg"
+                    class="p-2 2xl:h-10 h-8 bg-[#1A1A1A] rounded-lg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        <script>
+            document.querySelectorAll('[data-expand-toggle]').forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    content.classList.toggle('hidden');
+                });
+            });
+        </script>
+</body>
+
+</html>
