@@ -102,6 +102,12 @@ To run this project locally, ensure you have the following installed:
 
 \---
 
+\## Deployment
+
+The project is deployed and can be accessed online:
+
+\- *Live Demo*: https://star-portal-ankush.netlify.app/
+
 
 
 
